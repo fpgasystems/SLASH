@@ -12,10 +12,10 @@ RESOURCES_DIR=$(realpath ../resources)
 VRT_DIR=$(realpath $HOME_DIR/../../.)
 
 mkdir -p build
-cd build
-git clone $V80PP_GIT
-cd v80-vitis-flow
-git checkout $VPP_COMMIT_ID
+# cd build
+# git clone $V80PP_GIT
+# cd v80-vitis-flow
+# git checkout $VPP_COMMIT_ID
 
 VPP_DIR=$(realpath $HOME_DIR/build/v80-vitis-flow)
 
